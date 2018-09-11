@@ -1,0 +1,65 @@
+body {
+    color: #f5f5f5;
+    width: 100%;
+     height: 100%;
+     padding: 0;
+     margin: 0
+
+  
+}
+.container-fluid {
+    padding-right: 0 ; 
+    padding-left: 0 ; 
+
+}
+#People {
+    
+    h6 {
+        border-bottom : 1px solid #f6f5f8 ;
+        font-weight: normal
+    }
+    p {
+        padding: 5px;
+        text-align: center;
+       margin-bottom: 10px;
+    }
+    .name {
+        font-weight: bold; 
+        color: #CC3242
+    }
+
+   .done {
+       float: left;
+       text-align: center;
+       border: 1px solid #aaa ; 
+       border-radius: 2px;
+        margin: 13px;
+       padding: 6px; 
+       width: 200px;
+   } 
+   .totalapp {
+    text-align: center;
+   }
+}
+
+/* ==========Design the BG ===*/
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    background: url(https://res.cloudinary.com/muhammederdem/image/upload/v1536405234/starwars/death_star.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  
+    @media screen and (max-width: 992px) {
+      height: auto;
+      min-height: 100vh;
+    }
+  
+  }
+  
+  /* card style ---*/
+  
+ 
